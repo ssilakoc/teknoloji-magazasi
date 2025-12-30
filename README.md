@@ -1,5 +1,5 @@
-🚀 TechStore - Dinamik E-Ticaret Uygulaması
-Bu proje, modern bir teknoloji mağazasının temel işlevlerini simüle eden, tamamen Vanilla JavaScript kullanılarak geliştirilmiş bir web uygulamasıdır. Kullanıcı deneyimi (UX) ve veri yönetimi üzerine odaklanılarak hazırlanmıştır.
+🚀 TechStore - Teknoloji Mağazası Uygulaması
+Bu çalışmamda, modern bir alışveriş sitesinde olması gereken temel özellikleri içeren bir proje geliştirdim. Tamamen Vanilla JavaScript kullanarak ürünleri listeledim ve kullanıcının etkileşime girebileceği bir mağaza yapısı kurdum.
 
 🛠️ Özellikler
 Dinamik Ürün Listeleme: Ürünler JavaScript objeleri üzerinden dinamik olarak DOM'a basılır.
