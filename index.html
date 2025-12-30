@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore | Modern Alışveriş</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>TechStore</h1>
+        <div class="cart-icon" id="cart-button">
+            🛒 Sepetim (<span id="cart-count">0</span>)
+        </div>
+    </header>
+
+    <div class="controls-container">
+        <div class="search-box">
+            <input type="text" id="search-input" placeholder="Ürün ara..." onkeyup="searchProducts()">
+        </div>
+        <div class="filter-container">
+            <button onclick="filterProducts('all')">Hepsi</button>
+            <button onclick="filterProducts('Ses')">Ses</button>
+            <button onclick="filterProducts('Aksesuar')">Aksesuar</button>
+            <button onclick="filterProducts('Ofis')">Ofis</button>
+            <button onclick="filterProducts('Giyilebilir')">Giyilebilir</button>
+        </div>
+    </div>
+
+    <main>
+        <section class="product-list" id="product-list"></section>
+
+        <aside class="cart-modal" id="cart-modal">
+            <div class="cart-content">
+                <h2>Sepetiniz</h2>
+                <ul id="cart-items"></ul>
+                <div class="total-price">Toplam: <span id="total-amount">0</span> TL</div>
+                <button id="clear-cart">Sepeti Boşalt</button>
+                <button id="close-cart">Kapat</button>
+            </div>
+        </aside>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
